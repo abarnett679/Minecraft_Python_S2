@@ -1,0 +1,14 @@
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
+
+places = {}
+
+choice= ""
+while choice!= "exit":
+    choice = input("Enter location('exit' to close): ")
+    if choice in places:
+
+        location =
+
+        x, y, z =
+        mc.player.setTilePos(x,y,z) 
